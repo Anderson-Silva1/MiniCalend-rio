@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: cursive;
+    background-color: slateblue;
+}
+
+.calendario-conteiner {
+    background-color: #fff;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+
+.month-name {
+    background-color: orangered;
+    color: #fff;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.day-name {
+    font-size: 20px;
+    color: darkgray;
+}
+
+.day-number {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.year {
+    font-size: 20px;
+    color: darkgray;
+    font-weight: 500;
+}
+
+.hora {
+    background-color: orangered;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;    
+}
+
+div.hora span {
+    font-size: 1.5em;
+}
+
+.tempo-hr, .tempo-min, .tempo-sec {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 10px 0;
+}
